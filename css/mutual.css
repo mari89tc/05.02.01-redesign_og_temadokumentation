@@ -6,5 +6,11 @@ RØD: #F20707
 */
 
 /* FONTE */
+/* LOGO FONT*/
+body {
+  font-family: stix-two-math, serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /*IMAGES*/
