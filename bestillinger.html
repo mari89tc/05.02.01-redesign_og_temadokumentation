@@ -168,7 +168,54 @@
       <p>Engros@bagt.nu</p>
       <p>Vores butikker ligger i både København og Nordsjælland.</p>
 
-      --FORMS--
+      <form>
+        <div class="form_1">
+          <div class="form-felt">
+            <br><label for="navn">Navn</label></br>
+            <input id="navn" type="text" name="fname" />
+          </div>
+
+          <div class="form-felt">
+          <br><label for="email">Email</label></br>
+          <input id="email" type="text" name="email" />
+          </div>
+        </div>
+
+
+        <div class="form_2">
+          <div class="form-felt">
+            <br><label for="tel">Telefonnummer</label></br>
+            <input id="tel" type="tel" name="Tlf. nummer">
+            </div>
+            <div class="form_felt">
+              <label>
+                <br>Vælg butik</br>
+                <select name="liste">
+                  <option value="">Select</option>
+                  <option value="Hornbæk">Hornbæk</option>
+                  <option value="Gilleleje">Gilleleje</option>
+                  <option value="Helsingør">Helsingør</option>
+                  <option value="Nørrebro">Jagtvej</option>
+                  <option value="Indre By">Borgergade</option>
+                </select>
+              </label>
+            </div>
+        </div>
+
+        <div class="form-felt">
+          <br><label for="emne">Emne</label></br>
+          <input id="emne" type="text" name="emne" />
+        </div>
+
+        <div class="form_felt">
+          <label>
+            <br>Besked</br>
+            <textarea name="besked" rows="5"></textarea>
+          </label>
+        </div>
+
+        <button class="button">Indsend</button>
+      </form>
     </main>
     <script src="javascript/login.js"></script>
   </body>
