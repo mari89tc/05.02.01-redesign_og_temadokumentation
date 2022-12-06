@@ -1,3 +1,7 @@
+.top {
+    text-align: center;
+}
+
 .mini_kager {
     background-color: #FCE0F9;
 }
@@ -7,12 +11,16 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-h4 {
+.overskrift_minikager {
+    text-align: start;
+}
+
+.overskrift_storkage {
     text-align: center;
     margin: 30px;
 }
 
-.pris {
+.pris_2 {
     text-align: center;
     margin: 30px;
 }
@@ -20,22 +28,17 @@ h4 {
 img {
     margin: 30px;
 }
-/*.form_1  {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+h1, h2, h3, p, h4 {
+    margin: 20px;
+}
+
+.tekst_storkage {
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.col {
     width: 50%;
 }
 
-.form_2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 50%
-}
-
-#emne {
-    width: 38%;
-}
-
-#besked {
-    width: 38%;
-}*/

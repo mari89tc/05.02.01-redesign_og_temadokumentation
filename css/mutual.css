@@ -66,12 +66,12 @@ body {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   color: #c1181c;
   font-family: "Poppins_Medium", sans-serif;
 }
 h3 {
-  font-size: 45px;
+  font-size: 40px;
   color: #c1181c;
   font-family: "Poppins_Medium", sans-serif;
 }
@@ -81,7 +81,7 @@ h4 {
   font-family: "Poppins_Medium", sans-serif;
 }
 h5 {
-  font-size: 25px;
+  font-size: 20px;
   color: #c1181c;
   font-family: "Poppins_Medium", sans-serif;
 }
