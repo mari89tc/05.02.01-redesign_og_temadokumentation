@@ -1,18 +1,11 @@
 .mini_kager {
     background-color: #FCE0F9;
 }
-.grid_1-1-1-1-1 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
 
 .grid_1-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
 }
-
-
 
 h4 {
     text-align: center;
@@ -21,7 +14,7 @@ h4 {
 
 .pris {
     text-align: center;
-    margin: 10px;
+    margin: 30px;
 }
 
 img {
