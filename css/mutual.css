@@ -4,12 +4,29 @@ Gul: #FFFACD
 RØD: #C1181C
 */
 
+body {
+  background-color: #fffacd;
+}
 /* FONTE */
 h2 {
   font-size: 60px;
+  color: c1181c;
+}
+h3 {
+  font-size: 45px;
+  color: c1181c;
+}
+h4 {
+  font-size: 40px;
+  color: c1181c;
+}
+h5 {
+  font-size: 25px;
+  color: c1181c;
 }
 p {
   font-size: 30px;
+  color: c1181c;
 }
 
 /* LOGO FONT*/
@@ -21,3 +38,8 @@ body {
 }
 
 /*IMAGES*/
+
+/* Footer */
+footer {
+  background-color: #fce0f9;
+}
