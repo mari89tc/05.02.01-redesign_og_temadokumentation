@@ -1,5 +1,32 @@
-grid_1-1-1 {
+.grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+}
+
+h2 {
+  display: flex;
+  place-content: center;
+  margin-block: 40px;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+section .grid_1-1 {
+  background-color: #f5e5f4;
+  padding: 60px 0px 60px 0px;
+}
+
+section .grid_1-1-1 {
+  padding: 60px 0px 60px 0px;
 }
