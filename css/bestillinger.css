@@ -20,22 +20,20 @@ h4 {
 img {
     margin: 30px;
 }
-/*.form_1  {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+h1, h2, h3, p {
+    margin: 20px;
+}
+
+.tekst {
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.col {
     width: 50%;
 }
 
-.form_2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 50%
+.top {
+    text-align: center;
 }
-
-#emne {
-    width: 38%;
-}
-
-#besked {
-    width: 38%;
-}*/
