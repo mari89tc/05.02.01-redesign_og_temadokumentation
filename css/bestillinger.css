@@ -1,4 +1,33 @@
-.form_1  {
+.mini_kager {
+    background-color: #FCE0F9;
+}
+.grid_1-1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+h4 {
+    text-align: center;
+    margin: 30px;
+}
+
+.pris {
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    margin: 30px;
+}
+/*.form_1  {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 50%;
@@ -16,4 +45,4 @@
 
 #besked {
     width: 38%;
-}
+}*/

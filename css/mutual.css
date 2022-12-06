@@ -8,7 +8,7 @@ RØD: #C1181C
   margin: 0;
   box-sizing: border-box;
 }
-main :not(.om_os) {
+main :not(.om_os, .mini_kager) {
   max-width: 1000px;
   margin-inline: auto;
 }
