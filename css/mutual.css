@@ -26,6 +26,26 @@ img {
   margin: 30px;
 }
 
+ul {
+  display: flex;
+  flex-flow: wrap;
+  list-style: NONE;
+  border-top: solid #c1181c;
+  padding: 10px 0px 10px 0px;
+  justify-content: end;
+  gap: 8px;
+  max-width: 1200px;
+}
+
+a {
+  color: #c1181c;
+  font-size: 15px;
+  padding-left: 80px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Poppins_Medium", sans-serif;
+}
+
 body {
   background-color: #fffacd;
 }
