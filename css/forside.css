@@ -3,5 +3,15 @@
   padding: 30px;
 }
 .usp {
-  border-style: 2px;
+  border: 2px solid #c1181c;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+img,
+h2,
+p {
+  grid-area: 1/1;
 }
