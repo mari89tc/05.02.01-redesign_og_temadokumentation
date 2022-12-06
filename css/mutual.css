@@ -23,7 +23,9 @@ img {
 /* Logo */
 .logo {
   width: 30%;
-  margin: 30px;
+  margin-inline-start: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 ul {
@@ -31,15 +33,15 @@ ul {
   flex-flow: wrap;
   list-style: NONE;
   border-top: solid #c1181c;
+  margin-inline: 30px;
   padding: 10px 0px 10px 0px;
   justify-content: end;
   gap: 8px;
-  max-width: 1200px;
 }
 
 a {
   color: #c1181c;
-  font-size: 15px;
+  font-size: 20px;
   padding-left: 80px;
   text-transform: uppercase;
   text-decoration: none;
