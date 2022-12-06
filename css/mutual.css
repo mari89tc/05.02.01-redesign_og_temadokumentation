@@ -4,7 +4,47 @@ Gul: #FFFACD
 RØD: #C1181C
 */
 
+body {
+  background-color: #fffacd;
+}
 /* FONTE */
+@font-face {
+  font-family: Poppins_Medium;
+  src: url(Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: STIX;
+  src: url(STIXTwoText-VariableFont_wght.ttf);
+}
+
+h2 {
+  font-size: 60px;
+  color: c1181c;
+  font-family: Poppins_Medium;
+}
+h3 {
+  font-size: 45px;
+  color: c1181c;
+  font-family: Poppins_Medium;
+}
+h4 {
+  font-size: 40px;
+  color: c1181c;
+}
+h5 {
+  font-size: 25px;
+  color: c1181c;
+}
+p {
+  font-size: 30px;
+  color: c1181c;
+  font-family: Poppins_Regular;
+}
+
 /* LOGO FONT*/
 body {
   font-family: stix-two-math, serif;
@@ -14,3 +54,8 @@ body {
 }
 
 /*IMAGES*/
+
+/* Footer */
+footer {
+  background-color: #fce0f9;
+}
