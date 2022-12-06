@@ -8,13 +8,28 @@ body {
   background-color: #fffacd;
 }
 /* FONTE */
+@font-face {
+  font-family: Poppins_Medium;
+  src: url(Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: STIX;
+  src: url(STIXTwoText-VariableFont_wght.ttf);
+}
+
 h2 {
   font-size: 60px;
   color: c1181c;
+  font-family: Poppins_Medium;
 }
 h3 {
   font-size: 45px;
   color: c1181c;
+  font-family: Poppins_Medium;
 }
 h4 {
   font-size: 40px;
@@ -27,6 +42,7 @@ h5 {
 p {
   font-size: 30px;
   color: c1181c;
+  font-family: Poppins_Regular;
 }
 
 /* LOGO FONT*/
