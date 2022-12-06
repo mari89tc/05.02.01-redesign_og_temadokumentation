@@ -3,6 +3,25 @@ Lyserød: #FCE0F9
 Gul: #FFFACD
 RØD: #C1181C
 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+main {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.logo {
+  width: 30%;
+  margin: 30px;
+}
 
 body {
   background-color: #fffacd;
@@ -23,26 +42,28 @@ body {
 
 h2 {
   font-size: 60px;
-  color: c1181c;
-  font-family: Poppins_Medium;
+  color: #c1181c;
+  font-family: "Poppins_Medium", sans-serif;
 }
 h3 {
   font-size: 45px;
-  color: c1181c;
-  font-family: Poppins_Medium;
+  color: #c1181c;
+  font-family: "Poppins_Medium", sans-serif;
 }
 h4 {
   font-size: 40px;
-  color: c1181c;
+  color: #c1181c;
+  font-family: "Poppins_Medium", sans-serif;
 }
 h5 {
   font-size: 25px;
-  color: c1181c;
+  color: #c1181c;
+  font-family: "Poppins_Medium", sans-serif;
 }
 p {
   font-size: 30px;
-  color: c1181c;
-  font-family: Poppins_Regular;
+  color: #c1181c;
+  font-family: "Poppins_Regular", sans-serif;
 }
 
 /* LOGO FONT*/
