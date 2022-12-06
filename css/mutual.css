@@ -5,6 +5,13 @@ RØD: #C1181C
 */
 
 /* FONTE */
+h2 {
+  font-size: 60px;
+}
+p {
+  font-size: 30px;
+}
+
 /* LOGO FONT*/
 body {
   font-family: stix-two-math, serif;
