@@ -42,3 +42,23 @@ h1, h2, h3, p, h4 {
     width: 50%;
 }
 
+.bestil_vare {
+    background-color: #FCE0F9;
+}
+
+input  {
+    color: #C1181C; 
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #FCE0F9;  
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FCE0F9;
+}
