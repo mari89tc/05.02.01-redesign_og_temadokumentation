@@ -5,13 +5,23 @@
 .usp {
   border: 2px solid #c1181c;
 }
-.container {
+.gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
+.gallery img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
 img,
-h2,
-p {
-  grid-area: 1/1;
+p,
+h2 {
+  grid-area: 2/1;
 }
