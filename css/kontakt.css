@@ -1,8 +1,14 @@
-.grid_1-1-1 {
+.grid_butikker {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   place-items: center;
+}
+
+.grid_kontakt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 h2 {
@@ -11,23 +17,22 @@ h2 {
   margin-block: 40px;
 }
 
-.grid_1-1 {
+.grid_job {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 40px;
 }
 
-.grid_1-1-1-1 {
+.grid_forhandlere {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
 }
 
-section .grid_1-1 {
+section .grid_job {
   background-color: #f5e5f4;
-  padding: 60px 0px 60px 0px;
 }
 
-section .grid_1-1-1 {
+section .grid_butikker {
   padding: 60px 0px 60px 0px;
 }
