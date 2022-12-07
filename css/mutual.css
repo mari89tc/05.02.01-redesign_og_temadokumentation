@@ -39,7 +39,7 @@ ul {
   gap: 8px;
 }
 
-a {
+header a {
   color: #c1181c;
   font-size: 20px;
   padding-left: 80px;
@@ -86,7 +86,7 @@ h5 {
   font-family: "Poppins_Medium", sans-serif;
 }
 p {
-  font-size: 20px;
+  font-size: 25px;
   color: #c1181c;
   font-family: "Poppins_Regular", sans-serif;
 }

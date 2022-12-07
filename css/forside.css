@@ -3,5 +3,25 @@
   padding: 30px;
 }
 .usp {
-  border-style: 2px;
+  border: 2px solid #c1181c;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.gallery img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+img,
+p,
+h2 {
+  grid-area: 2/1;
 }
