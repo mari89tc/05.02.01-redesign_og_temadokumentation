@@ -64,7 +64,11 @@ body {
   font-family: STIX;
   src: url(STIXTwoText-VariableFont_wght.ttf);
 }
-
+h1 {
+  font-size: 45px;
+  color: #c1181c;
+  font-family: "Poppins_Medium", sans-serif;
+}
 h2 {
   font-size: 45px;
   color: #c1181c;
