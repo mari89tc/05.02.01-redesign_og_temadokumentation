@@ -2,9 +2,12 @@
 footer {
   background-color: #fce0f9;
   padding: 20px;
-  font-size: 15px;
+}
+footer,
+a {
   color: #c1181c;
   font-family: "Poppins_Regular", sans-serif;
+  font-size: 12px;
 }
 h5 {
   font-size: 20px;
