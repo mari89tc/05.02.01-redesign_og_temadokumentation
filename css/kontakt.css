@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  margin-inline: 2%;
   margin-bottom: 40px;
 }
 
@@ -82,24 +81,23 @@ section .grid_butikker {
 
 /*Forhandlere section*/
 
-.grid_forhandlere {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+.flex_forhandlere {
+  display: flex;
   gap: 10px;
   margin: 10px 30px 60px 30px;
 }
 
-.grid_forhandlere .boks {
+.flex_forhandlere .boks {
   background-color: #f5e5f4;
   padding: 20px 20px 120px 20px;
 }
 
-.grid_forhandlere p {
+.flex_forhandlere p {
   padding-block: 8px;
   padding-inline-start: 10px;
 }
 
-.grid_forhandlere h3 {
+.flex_forhandlere h3 {
   font-size: 30px;
   padding-block: 30px;
   padding-inline-start: 10px;
