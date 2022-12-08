@@ -78,9 +78,12 @@ input  {
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
-    border-bottom-style: #FCE0F9 groove;
+    border-bottom-style: #FCE0F9 3px;
     padding: 12px 0;
     background-color: #FFFACD;
+    border-width: 5px;
+    border-color: #FCE0F9
+    
 }
 
 select {
@@ -97,7 +100,13 @@ select {
 }
 
 #besked {
-   background-color: #FCE0F9;
+    border-top-style: hidden;
+    border-left-style: #FCE0F9;
+    border-right-style: #FCE0F9;
+    border-bottom-style:#FCE0F9;
+    background-color: #FFFACD;
+    border-width: 5px;
+    border-color: #FCE0F9;
 }
 
 .button {
