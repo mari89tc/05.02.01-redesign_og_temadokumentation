@@ -16,19 +16,17 @@ main > *,
 
 /*kontakt section*/
 
-.flex_kontakt {
-  display: flex;
-  flex-wrap: wrap;
+.grid_kontakt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.flex_kontakt .boks {
-  width: 300px;
-  aspect-ratio: 1/1;
+.grid_kontakt .boks {
   border-left: solid #c1181c;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
-.flex_kontakt a {
+.grid_kontakt a {
   place-content: start;
   display: block;
   padding-block: 10px;
@@ -39,14 +37,14 @@ main > *,
   font-family: "Poppins_Regular", sans-serif;
 }
 
-.flex_kontakt p {
+.grid_kontakt p {
   color: black;
   padding: 10px 10px 0px 10px;
 
   font-size: 20px;
 }
 
-.flex_kontakt h3 {
+.grid_kontakt h3 {
   color: black;
   font-size: 30px;
   padding: 0px 0px 5px 10px;
