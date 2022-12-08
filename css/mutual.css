@@ -70,17 +70,17 @@ body {
   src: url(STIXTwoText-VariableFont_wght.ttf);
 }
 h1 {
-  font-size: 45px;
+  font-size: 40px;
   color: #c1181c;
   font-family: "Poppins_Medium", sans-serif;
 }
 h2 {
-  font-size: 45px;
+  font-size: 40px;
   color: #c1181c;
   font-family: "Poppins_Medium", sans-serif;
 }
 h3 {
-  font-size: 40px;
+  font-size: 35px;
   color: #c1181c;
   font-family: "Poppins_Medium", sans-serif;
 }
