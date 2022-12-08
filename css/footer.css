@@ -17,6 +17,7 @@ footer a {
   font-family: "Poppins_Regular", sans-serif;
   font-size: 15px;
   text-decoration: none;
+  display: block;
   margin: 0;
 }
 h5 {
