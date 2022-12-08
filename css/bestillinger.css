@@ -75,10 +75,7 @@ form {
 }
 
 input  {
-    border-top-style: solid #FCE0F9;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-bottom-style: #FCE0F9 3px;
+    border-style: solid #FCE0F9;
     padding: 12px 0;
     background-color: #FFFACD;
     border-width: 5px;
