@@ -101,10 +101,11 @@ select {
 
 #besked {
     border-top-style: hidden;
-    border-left-style: #FCE0F9;
-    border-right-style: #FCE0F9;
-    border-bottom-style:#FCE0F9;
+    border-left-style: #FCE0F9 3px;
+    border-right-style: #FCE0F9 3px;
+    border-bottom-style:#FCE0F9 3px;
     background-color: #FFFACD;
+    padding: 12px 0;
     border-width: 5px;
     border-color: #FCE0F9;
 }
