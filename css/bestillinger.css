@@ -42,3 +42,35 @@ h1, h2, h3, p, h4 {
     width: 50%;
 }
 
+.bestil_vare {
+    background-color: #FCE0F9;
+}
+
+.form_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*input  {
+    color: #C1181C; 
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #FCE0F9;  
+    border-bottom: 10px #C1181C;
+}
+
+select {
+    color: #C1181C; 
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:  #FCE0F9;
+}*/
