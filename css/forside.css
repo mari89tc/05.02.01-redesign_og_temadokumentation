@@ -1,17 +1,31 @@
-main :not(.usp, .om_os) {
-  max-width: 1200px;
-  margin-inline: auto;
+main,
+.full {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
+
+.full {
+  grid-column: 1/-1;
+}
+
+main > *,
+.full > * {
+  /* main > *, .full > * */
+  grid-column: 2/3;
+}
+
 .om_os {
   background-color: #fce0f9;
   padding: 30px;
   gap: 20px;
+  z-index: 3;
 }
 .usp {
   border: 2px solid #c1181c;
   padding: 10px;
   text-align: center;
   gap: 800px;
+  z-index: 3;
 }
 
 /* Åbningstider */
