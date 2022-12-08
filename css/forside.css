@@ -15,9 +15,13 @@ main > *,
   grid-column: 2/3;
 }
 
+section {
+  margin-bottom: 20px;
+}
+
 .om_os {
   background-color: #fce0f9;
-  padding: 30px;
+  padding: 40px;
 }
 .usp {
   border: 2px solid #c1181c;
@@ -58,9 +62,7 @@ main > *,
   place-items: center;
   text-align: center;
 }
-section {
-  margin-bottom: 20px;
-}
+
 .container p {
   font-size: 27px;
   color: #c1181c;
