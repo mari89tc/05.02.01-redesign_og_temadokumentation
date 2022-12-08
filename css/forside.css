@@ -18,7 +18,6 @@ main > *,
 .om_os {
   background-color: #fce0f9;
   padding: 30px;
-  margin-top: 30px;
 }
 .usp {
   border: 2px solid #c1181c;
@@ -59,7 +58,9 @@ main > *,
   place-items: center;
   text-align: center;
 }
-
+section {
+  margin-bottom: 20px;
+}
 .container p {
   font-size: 27px;
   color: #c1181c;
