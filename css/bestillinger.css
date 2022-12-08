@@ -29,7 +29,7 @@ img {
     margin: 30px;
 }
 
-h1, h2, h3, p, h4, h5  {
+h1, h2, h3, p, h4, h5, a  {
     margin: 20px;
 }
 
@@ -46,25 +46,37 @@ h1, h2, h3, p, h4, h5  {
     background-color: #FCE0F9;
 }
 
-/*.form_1 {
+.form_1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
 }
+.form_1 > div:nth-child(1), .form_1 > div:nth-child(2){
+    place-self: start;
+    text-align: start;
+}
+
 
 .form_2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}*/
+    justify-items: start;
+}
+
+.form_2 > div:nth-child(1), div.form_felt:nth-child(2) {
+    place-self: start;
+    text-align: start;
+}
 
 form {
     width: 100%;
     padding: 10px;
-
+    align-content: flex-start;
 }
 
 input  {
     color: #C1181C; 
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -74,7 +86,7 @@ input  {
 
 select {
     color: #C1181C; 
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -82,5 +94,5 @@ select {
 }
 
 #emne {
-    width: 100%;
+    width: 74%;
 }
