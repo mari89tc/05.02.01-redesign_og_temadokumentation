@@ -95,6 +95,7 @@ select {
   margin: 8px 0;
   box-sizing: border-box;
   background-color: #fffacd;
+  border: 5px solid #fce0f9;
 }
 
 #emne {
@@ -111,4 +112,9 @@ select {
   background-color: #fce0f9;
   padding: 15px;
   border-radius: 10px;
+}
+label {
+  font-size: 15px;
+  color: #c1181c;
+  font-family: "Poppins_Regular", sans-serif;
 }
