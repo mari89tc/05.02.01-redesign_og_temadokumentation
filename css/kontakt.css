@@ -1,3 +1,5 @@
+/*kontakt section*/
+
 .grid_kontakt {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -25,11 +27,13 @@
   padding-bottom: 5px;
 }
 
-h2 {
+section h2 {
   display: flex;
   place-content: center;
   margin-block: 40px;
 }
+
+/*Bagt family section*/
 
 .grid_job {
   display: grid;
@@ -61,6 +65,8 @@ h2 {
   font-family: "Poppins_Medium", sans-serif;
 }
 
+/*Butikker section*/
+
 .grid_butikker {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -71,6 +77,8 @@ h2 {
 section .grid_butikker {
   padding: 60px 0px 60px 0px;
 }
+
+/*Forhandlere section*/
 
 .grid_forhandlere {
   display: grid;
