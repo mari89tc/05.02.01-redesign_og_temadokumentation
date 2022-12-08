@@ -44,6 +44,9 @@ a {
   line-height: 30px;
 }
 
+input:focus{
+   outline: 3px solid #c1181c;
+}
 .col {
   width: 50%;
 }
@@ -52,22 +55,22 @@ a {
   background-color: #fce0f9;
 }
 
-.form_1 {
+/*.form_1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: start;
-}
+}*/
 .form_1 > div:nth-child(1),
 .form_1 > div:nth-child(2) {
   place-self: start;
   text-align: start;
 }
 
-.form_2 {
+/*.form_2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: start;
-}
+}*/
 
 .form_2 > div:nth-child(1),
 div.form_felt:nth-child(2) {
@@ -82,6 +85,7 @@ form {
 }
 
 input {
+    width: 50%;
   border: solid #fce0f9;
   padding: 12px 0;
   background-color: #fffacd;
@@ -90,7 +94,7 @@ input {
 
 select {
   color: #c1181c;
-  width: 100%;
+  width: 25%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -99,7 +103,7 @@ select {
 }
 
 #emne {
-  width: 74%;
+  width: 50%;
 }
 
 #besked {
