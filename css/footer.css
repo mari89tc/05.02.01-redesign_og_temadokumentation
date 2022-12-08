@@ -8,6 +8,7 @@ footer p {
   color: #c1181c;
   font-family: "Poppins_Regular", sans-serif;
   font-size: 15px;
+  padding-bottom: 6px;
   text-decoration: none;
   margin: 0;
 }
@@ -17,13 +18,15 @@ footer a {
   font-family: "Poppins_Regular", sans-serif;
   font-size: 15px;
   text-decoration: none;
+  padding-bottom: 6px;
+  display: block;
   margin: 0;
 }
 h5 {
   font-size: 18px;
   color: #c1181c;
   margin: 0;
-  padding-bottom: 6%;
+  padding-bottom: 5%;
   font-family: "Poppins_Regular", sans-serif;
 }
 .grid_1_1_1_1 {
