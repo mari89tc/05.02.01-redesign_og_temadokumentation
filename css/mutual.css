@@ -8,10 +8,10 @@ RØD: #C1181C
   margin: 0;
   box-sizing: border-box;
 }
-main :not(.usp, .om_os, .mini_kager, .bestil_vare, .form_1 > div:nth-child(1), .form_1 > div:nth-child(2), .form_2 > div:nth-child(1), div.form_felt:nth-child(2), footer) {
+/* main :not(.usp, .om_os, .mini_kager, .bestil_vare, .form_1 > div:nth-child(1), .form_1 > div:nth-child(2), .form_2 > div:nth-child(1), div.form_felt:nth-child(2), footer) {
   max-width: 1200px;
   margin-inline: auto;
-}
+} */
 
 /*main  {
   max-width: 1000px;
