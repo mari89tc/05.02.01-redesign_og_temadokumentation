@@ -19,3 +19,6 @@ h5 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
 }
+.box {
+  margin-left: 30px;
+}
