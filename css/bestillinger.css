@@ -46,7 +46,7 @@ h1, h2, h3, p, h4, h5  {
     background-color: #FCE0F9;
 }
 
-/*.form_1 {
+.form_1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -54,7 +54,7 @@ h1, h2, h3, p, h4, h5  {
 .form_2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}*/
+}
 
 form {
     width: 100%;
@@ -64,7 +64,7 @@ form {
 
 input  {
     color: #C1181C; 
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -74,7 +74,7 @@ input  {
 
 select {
     color: #C1181C; 
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -83,4 +83,5 @@ select {
 
 #emne {
     width: 100%;
+    /*margin-left: 128px;*/
 }
