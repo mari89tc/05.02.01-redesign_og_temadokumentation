@@ -1,24 +1,29 @@
 /* Footer */
 footer {
   background-color: #fce0f9;
-  padding: 20px;
+  padding-block: 50px;
+  margin-inline: 0;
 }
 footer p {
   color: #c1181c;
   font-family: "Poppins_Regular", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none;
+  margin: 0;
 }
 
 footer a {
   color: #c1181c;
   font-family: "Poppins_Regular", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none;
+  margin: 0;
 }
 h5 {
-  font-size: 20px;
+  font-size: 18px;
   color: #c1181c;
+  margin: 0;
+  padding-bottom: 6%;
   font-family: "Poppins_Regular", sans-serif;
 }
 .grid_1_1_1_1 {
