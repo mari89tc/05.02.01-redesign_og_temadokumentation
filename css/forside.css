@@ -59,6 +59,7 @@
 }
 .container:hover p {
   opacity: 1;
+  display: block;
 }
 
 .container:hover img {
