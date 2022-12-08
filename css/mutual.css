@@ -9,7 +9,7 @@ RØD: #C1181C
   box-sizing: border-box;
 }
 main :not(.om_os, .mini_kager, .bestil_vare, .form_1 > div:nth-child(1), .form_1 > div:nth-child(2), .form_2 > div:nth-child(1), div.form_felt:nth-child(2), footer) {
-  max-width: 12000px;
+  max-width: 1200px;
   margin-inline: auto;
 }
 
