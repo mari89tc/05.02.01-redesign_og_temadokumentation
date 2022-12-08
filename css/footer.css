@@ -3,12 +3,11 @@ footer {
   background-color: #fce0f9;
   padding: 20px;
 }
-footer,
-p,
-a {
+footer p a {
   color: #c1181c;
   font-family: "Poppins_Regular", sans-serif;
-  font-size: 15px;
+  font-size: 12px;
+  text-decoration: none;
 }
 h5 {
   font-size: 20px;
