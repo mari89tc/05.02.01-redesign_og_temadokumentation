@@ -1,3 +1,7 @@
+main :not(.usp, .om_os) {
+  max-width: 1200px;
+  margin-inline: auto;
+}
 .om_os {
   background-color: #fce0f9;
   padding: 30px;
@@ -9,6 +13,8 @@
   text-align: center;
   gap: 800px;
 }
+
+/* Åbningstider */
 
 .gallery {
   display: grid;
@@ -27,13 +33,26 @@
   place-items: center;
 }
 .container img,
-.container p,
+.container .ps,
 .container h2 {
   grid-area: 1/1;
   transition: 0.3s;
 }
 
+.container h2 {
+  font-size: 40px;
+  color: #c1181c;
+  font-family: "Poppins_Medium", sans-serif;
+  place-items: center;
+}
+
 .container p {
+  font-size: 27px;
+  color: #c1181c;
+  font-family: "Poppins_Medium", sans-serif;
+  place-self: center;
+}
+.container .ps {
   opacity: 0;
   z-index: 3;
 }
@@ -46,7 +65,7 @@
 .container:hover h2 {
   opacity: 0;
 }
-.container:hover p {
+.container:hover .ps {
   opacity: 1;
   display: block;
 }
