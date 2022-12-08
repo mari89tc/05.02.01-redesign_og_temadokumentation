@@ -8,7 +8,7 @@ RØD: #C1181C
   margin: 0;
   box-sizing: border-box;
 }
- main :not(.om_os, .mini_kager, .bestil_vare, .form_1 > div:nth-child(1) ) {
+ main :not(.om_os, .mini_kager, .bestil_vare, .form_1 > div:nth-child(1), .form_1 > div:nth-child(2), .form_2 > div:nth-child(1), div.form_felt:nth-child(2)) {
   max-width: 1000px;
   margin-inline: auto;
 } 

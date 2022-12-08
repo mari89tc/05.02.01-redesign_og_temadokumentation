@@ -51,22 +51,27 @@ h1, h2, h3, p, h4, h5, a  {
     grid-template-columns: repeat(2, 1fr);
     justify-items: start;
 }
-.form_1 > div:nth-child(1){
-
+.form_1 > div:nth-child(1), .form_1 > div:nth-child(2){
     place-self: start;
     text-align: start;
 }
 
+
 .form_2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+}
+
+.form_2 > div:nth-child(1), div.form_felt:nth-child(2) {
+    place-self: start;
+    text-align: start;
 }
 
 form {
     width: 100%;
     padding: 10px;
     align-content: flex-start;
-
 }
 
 input  {
@@ -89,6 +94,5 @@ select {
 }
 
 #emne {
-    width: 100%;
-    /*margin-left: 128px;*/
+    width: 74%;
 }
