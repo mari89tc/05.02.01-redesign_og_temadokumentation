@@ -4,10 +4,11 @@ footer {
   padding: 20px;
 }
 footer,
+p,
 a {
   color: #c1181c;
   font-family: "Poppins_Regular", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
 }
 h5 {
   font-size: 20px;
