@@ -75,13 +75,12 @@ form {
 }
 
 input  {
-    color: #C1181C; 
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: #FCE0F9;  
-    border-bottom: 10px #C1181C;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: #FCE0F9 groove;
+    padding: 12px 0;
+    background-color: #FFFACD;
 }
 
 select {
@@ -90,9 +89,19 @@ select {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    background-color:  #FCE0F9;
+    background-color:  #FFFACD;
 }
 
 #emne {
     width: 74%;
 }
+
+#besked {
+   background-color: #FCE0F9;
+}
+
+.button {
+    background-color: #FCE0F9;
+    padding: 15px;
+    border-radius: 10px;
+} 
