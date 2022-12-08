@@ -1,7 +1,8 @@
+/* Fyld ud på siden med padding */
 main,
 .full {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  grid-template-columns: 1fr minmax(0, 1100px) 1fr;
 }
 
 .full {
@@ -17,15 +18,13 @@ main > *,
 .om_os {
   background-color: #fce0f9;
   padding: 30px;
-  gap: 20px;
-  z-index: 3;
+  margin-top: 30px;
 }
 .usp {
   border: 2px solid #c1181c;
   padding: 10px;
   text-align: center;
-  gap: 800px;
-  z-index: 3;
+  border-inline: 0;
 }
 
 /* Åbningstider */
