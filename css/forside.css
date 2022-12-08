@@ -1,11 +1,13 @@
 .om_os {
   background-color: #fce0f9;
   padding: 30px;
+  gap: 20px;
 }
 .usp {
   border: 2px solid #c1181c;
   padding: 10px;
   text-align: center;
+  gap: 800px;
 }
 
 .gallery {
@@ -41,19 +43,6 @@
 .container h2 {
   z-index: 3;
 }
-/*
-.thumbnail {
-  top: -50px;
-  left: -35px;
-  display: block;
-  z-index: 999;
-  cursor: pointer;
-}
-.thumbnail:hover {
-  transform: scale(1.1);
-}
-*/
-
 .container:hover h2 {
   opacity: 0;
 }
