@@ -59,16 +59,13 @@ body {
 /* FONTE */
 @font-face {
   font-family: Poppins_Medium;
-  src: url(Poppins-Medium.ttf);
+  src: url(poppins-medium-webfont.woff2) format(woff2);
 }
 @font-face {
   font-family: Poppins-Regular;
-  src: url(Poppins-Regular.ttf);
+  src: url(poppins-regular-webfont.woff2) format(woff2);
 }
-@font-face {
-  font-family: STIX;
-  src: url(STIXTwoText-VariableFont_wght.ttf);
-}
+
 h1 {
   font-size: 40px;
   color: #c1181c;
