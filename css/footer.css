@@ -2,9 +2,13 @@
 footer {
   background-color: #fce0f9;
   padding: 20px;
-  font-size: 15px;
+}
+footer,
+p,
+a {
   color: #c1181c;
   font-family: "Poppins_Regular", sans-serif;
+  font-size: 15px;
 }
 h5 {
   font-size: 20px;
@@ -15,4 +19,7 @@ h5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
+}
+.box {
+  margin-left: 30px;
 }
