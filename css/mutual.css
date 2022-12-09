@@ -54,32 +54,32 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: var(--font-lg);
   color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 h2 {
-  font-size: 40px;
+  font-size: var(--font-lg);
   color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 h3 {
-  font-size: 35px;
+  font-size: var(--font-md);
   color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 h4 {
-  font-size: 25px;
+  font-size: var(--font-sm);
   color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 h5 {
-  font-size: 20px;
+  font-size: var(--font-xxs);
   color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 p {
-  font-size: 22px;
+  font-size: var(--font-xs);
   color: var(--brand_color);
   font-family: "Poppins_Regular", sans-serif;
 }
