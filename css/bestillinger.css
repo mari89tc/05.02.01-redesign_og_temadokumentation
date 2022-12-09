@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.mini_kager {
+.full {
   background-color: #fce0f9;
 }
 
@@ -49,10 +49,6 @@ input:focus{
 }
 .col {
   width: 50%;
-}
-
-.bestil_vare {
-  background-color: #fce0f9;
 }
 
 form {
