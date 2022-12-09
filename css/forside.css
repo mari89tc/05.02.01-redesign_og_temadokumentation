@@ -16,16 +16,16 @@ main > *,
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: var(--space-md);
 }
 
 .om_os {
-  background-color: #fce0f9;
-  padding: 40px;
+  background-color: var(--tertiary);
+  padding: var(--space-xl);
 }
 .usp {
-  border: 2px solid #c1181c;
-  padding: 20px;
+  border: 2px solid var(--brand_color);
+  padding: var(--space-md);
   text-align: center;
   border-inline: 0;
 }
@@ -35,8 +35,8 @@ section {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-  gap: 30px;
-  padding-bottom: 30px;
+  gap: var(--space-lg);
+  padding-bottom: var(--space-lg);
 }
 .gallery img {
   height: 100%;
@@ -56,16 +56,16 @@ section {
 }
 
 .container h2 {
-  font-size: 40px;
-  color: #c1181c;
+  font-size: var(--font-lg);
+  color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
   place-items: center;
   text-align: center;
 }
 
 .container p {
-  font-size: 27px;
-  color: #c1181c;
+  font-size: var(--font-sm);
+  color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
   place-self: center;
   text-align: center;

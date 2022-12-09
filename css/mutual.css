@@ -3,7 +3,20 @@ Lyserød: #FCE0F9
 Gul: #FFFACD
 RØD: #C1181C
 */
-
+html {
+  --brand_color: #c1181c;
+  --secondary: #fffacd;
+  --tertiary: #fce0f9;
+  --space-sm: 10px;
+  --space-md: 20px;
+  --space-lg: 30px;
+  --space-xl: 40px;
+  --font-xxs: 20px;
+  --font-xs: 22px;
+  --font-sm: 25px;
+  --font-md: 35px;
+  --font-lg: 40px;
+}
 * {
   padding: 0;
   margin: 0;
@@ -28,7 +41,7 @@ img {
 }
 
 body {
-  background-color: #fffacd;
+  background-color: var(--secondary);
 }
 /* FONTE */
 @font-face {
@@ -42,32 +55,32 @@ body {
 
 h1 {
   font-size: 40px;
-  color: #c1181c;
+  color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 h2 {
   font-size: 40px;
-  color: #c1181c;
+  color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 h3 {
   font-size: 35px;
-  color: #c1181c;
+  color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 h4 {
   font-size: 25px;
-  color: #c1181c;
+  color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 h5 {
   font-size: 20px;
-  color: #c1181c;
+  color: var(--brand_color);
   font-family: "Poppins_Medium", sans-serif;
 }
 p {
   font-size: 22px;
-  color: #c1181c;
+  color: var(--brand_color);
   font-family: "Poppins_Regular", sans-serif;
 }
 
@@ -76,7 +89,7 @@ body {
   font-family: stix-two-math, serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #fffacd;
+  background-color: var(--secondary);
 }
 
 /* Logo */
@@ -91,7 +104,7 @@ ul {
   display: flex;
   flex-flow: wrap;
   list-style: NONE;
-  border-top: solid #c1181c;
+  border-top: solid var(--brand_color);
   margin-inline: 30px;
   padding: 10px 0px 10px 0px;
   justify-content: end;
@@ -99,7 +112,7 @@ ul {
 }
 
 header a {
-  color: #c1181c;
+  color: var(--brand_color);
   font-size: 20px;
   padding-left: 80px;
   text-transform: uppercase;
@@ -123,7 +136,7 @@ header a {
   cursor: pointer;
   display: none;
   font-size: 22px;
-  color: #c1181c;
+  color: var(--brand_color);
   font-family: "Poppins_Regular", sans-serif;
 }
 
