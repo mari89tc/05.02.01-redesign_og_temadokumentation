@@ -3,11 +3,13 @@ Lyserød: #FCE0F9
 Gul: #FFFACD
 RØD: #C1181C
 */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 /* main :not(.usp, .om_os, .mini_kager, .bestil_vare, .form_1 > div:nth-child(1), .form_1 > div:nth-child(2), .form_2 > div:nth-child(1), div.form_felt:nth-child(2), footer) {
   max-width: 1200px;
   margin-inline: auto;
@@ -23,34 +25,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-}
-
-/* Logo */
-.logo {
-  width: 30%;
-  margin-inline-start: 30px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
-
-ul {
-  display: flex;
-  flex-flow: wrap;
-  list-style: NONE;
-  border-top: solid #c1181c;
-  margin-inline: 30px;
-  padding: 10px 0px 10px 0px;
-  justify-content: end;
-  gap: 8px;
-}
-
-header a {
-  color: #c1181c;
-  font-size: 20px;
-  padding-left: 80px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: "Poppins_Medium", sans-serif;
 }
 
 body {
@@ -103,4 +77,70 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: #fffacd;
+}
+
+/* Logo */
+.logo {
+  width: 40%;
+  margin-inline-start: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+  flex-flow: wrap;
+  list-style: NONE;
+  border-top: solid #c1181c;
+  margin-inline: 30px;
+  padding: 10px 0px 10px 0px;
+  justify-content: end;
+  gap: 8px;
+}
+
+header a {
+  color: #c1181c;
+  font-size: 20px;
+  padding-left: 80px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Poppins_Medium", sans-serif;
+}
+
+/* burgermenu */
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  /* 2. Få elementerne til at stå ved siden af hinanden */
+  display: flex;
+  gap: 1rem;
+}
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 30px;
+  min-height: 30px;
+  cursor: pointer;
+  display: none;
+  font-size: 22px;
+  color: #c1181c;
+  font-family: "Poppins_Regular", sans-serif;
+}
+
+@media (max-width: 700px) {
+  .toggle-btn {
+    display: block;
+  }
+  .main-menu.shown {
+    display: contents;
+  }
+  .main-menu ul {
+    display: none;
+  }
+  .main-menu.shown ul {
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    flex-basis: 100%;
+  }
 }
