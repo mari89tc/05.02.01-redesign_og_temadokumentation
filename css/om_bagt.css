@@ -1,0 +1,10 @@
+.billede1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.overskrift {
+    text-align: center;
+  }
