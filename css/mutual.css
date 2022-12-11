@@ -11,6 +11,7 @@ html {
   --space-md: 20px;
   --space-lg: 30px;
   --space-xl: 40px;
+  --space-xxl: 50px;
   --font-xxs: 20px;
   --font-xs: 22px;
   --font-sm: 25px;
@@ -27,12 +28,12 @@ html {
   max-width: 1200px;
   margin-inline: auto;
 } */
-
-/*main  {
-  max-width: 1000px;
+/*
+main {
+  max-width: 1200px;
   margin-inline: auto;
-}*/
-
+}
+*/
 /*IMAGES*/
 img {
   width: 100%;
@@ -94,7 +95,7 @@ body {
 
 /* Logo */
 .logo {
-  width: 40%;
+  width: 30%;
   margin-inline-start: 30px;
   margin-bottom: 10px;
   margin-top: 20px;
