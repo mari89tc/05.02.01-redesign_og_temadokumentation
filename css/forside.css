@@ -20,6 +20,8 @@ section {
 }
 section h2 {
   margin-bottom: var(--space-md);
+  margin-top: var(--space-md);
+  text-align: center;
 }
 .om_os {
   background-color: var(--tertiary);
@@ -35,11 +37,10 @@ section h2 {
 .grid_1-2 {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: var(--space-sm);
 }
 .grid_1-2 img {
   height: 100%;
-  width: 70%;
+  width: 60%;
 }
 
 /* Åbningstider */
