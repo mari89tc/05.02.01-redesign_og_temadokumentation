@@ -14,27 +14,34 @@ main > *,
   grid-column: 2/3;
 }
 
-.top {
+.top  {
   text-align: center;
+  margin-bottom: 10px;
+  line-height: 30px;
 }
 
 .full {
   background-color: #fce0f9;
 }
 
-.store_kager {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+@media (min-width: 600px) {
+  .store_kager {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .overskrift_minikager {
   text-align: start;
 }
 
-.minikager_1-1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 10px;
+@media (min-width: 600px) {
+  .minikager_1-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    padding-left: 80px;
+  }
 }
 
 .overskrift_storkage {
@@ -60,6 +67,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
+  padding: 20px;
 }
 
 .form_grid_1-1 {
@@ -69,6 +77,15 @@ img {
 
 .col {
   width: 50%;
+}
+
+.kundebestilling {
+  line-height: 40px;
+}
+
+.engros {
+  line-height: 33px;
+  padding-bottom: 50px;
 }
 
 form {
@@ -101,8 +118,6 @@ select {
   background-color: #fffacd;
   border: 5px solid #fce0f9;
 }
-
-
 
 #emne {
   width: 91%;
