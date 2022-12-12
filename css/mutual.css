@@ -49,7 +49,7 @@ body {
   src: url(poppins-medium-webfont.woff2) format(woff2);
 }
 @font-face {
-  font-family: Poppins-Regular;
+  font-family: Poppins_Regular;
   src: url(poppins-regular-webfont.woff2) format(woff2);
 }
 
