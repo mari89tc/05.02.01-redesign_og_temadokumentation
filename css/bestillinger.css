@@ -1,6 +1,17 @@
-.top_pic {
-  width: 75%;
-  margin-left: 190px;
+main,
+.full {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1100px) 1fr;
+}
+
+.full {
+  grid-column: 1/-1;
+}
+
+main > *,
+.full > * {
+  /* main > *, .full > * */
+  grid-column: 2/3;
 }
 
 .top {
@@ -14,13 +25,7 @@
 .store_kager {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1100px;
-  margin-inline: auto;
 }
-/*.grid_1-1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}*/
 
 .overskrift_minikager {
   text-align: start;
@@ -29,8 +34,6 @@
 .minikager_1-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1100px;
-  margin-inline: auto;
   padding: 10px;
 }
 
@@ -47,18 +50,6 @@
 img {
   margin: 30px;
 }
-
-h1,
-h2,
-h3,
-h4,
-p,
-h5,
-a {
-  max-width: 1100px;
-  margin-inline: auto;
-}
-
 
 .tekst_storkage {
   padding-left: 20px;
@@ -98,7 +89,6 @@ form {
 }
 
 input {
-  width: 100%;
   border: solid #fce0f9;
   padding: 12px 0;
   background-color: #fffacd;
@@ -107,19 +97,16 @@ input {
 
 select {
   color: #c1181c;
-  
   padding: 12px 20px;
   background-color: #fffacd;
   border: 5px solid #fce0f9;
 }
 
-/*#tel {
-  width: 120%;
-}
+
 
 #emne {
-  width: 75%;
-}*/
+  width: 91%;
+}
 
 #besked {
   background-color: #fffacd;
@@ -148,5 +135,7 @@ input:focus{
 
 .grid_1-2 {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
 }
+
