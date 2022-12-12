@@ -120,6 +120,16 @@ main > *,
   place-items: center;
 }
 
+.grid_butikker a {
+  place-content: start;
+  display: inline;
+  color: #c1181c;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Poppins_Regular", sans-serif;
+}
+
 /*Forhandlere section*/
 
 .flex_forhandlere {
