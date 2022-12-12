@@ -24,6 +24,11 @@ main > *,
   background-color: #fce0f9;
 }
 
+h1, h2, h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 600px) {
   .store_kager {
     display: grid;
@@ -54,9 +59,9 @@ main > *,
   margin: 30px;
 }
 
-img {
+/*img {
   margin: 30px;
-}
+}*/
 
 .tekst_storkage {
   padding-left: 20px;
