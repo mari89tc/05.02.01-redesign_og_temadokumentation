@@ -19,11 +19,12 @@ main > *,
   .grid_kontakt {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
   }
 }
 .grid_kontakt .boks {
   border-left: solid #c1181c;
+  margin-block: 10%;
 }
 
 .grid_kontakt a {
@@ -39,7 +40,6 @@ main > *,
 .grid_kontakt p {
   color: black;
   padding: 10px 10px 0px 10px;
-
   font-size: 20px;
 }
 
@@ -67,13 +67,21 @@ main > *,
   .grid_job {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 60px;
     padding-block: 60px;
+  }
+
+  .boks_order {
+    order: 1;
   }
 }
 
 .grid_job .boks {
   padding-left: 50px;
+}
+
+.boks_order {
+  padding-bottom: 10%;
 }
 
 .section2 {
@@ -208,23 +216,32 @@ main > *,
 
 /*Forhandlere section*/
 
-.flex_forhandlere {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 10px 0px 60px 0px;
+@media (min-width: 1100px) {
+  .grid_forhandlere {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+  .grid_forhandlere {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
 }
 
-.flex_forhandlere .boks {
-  width: 280px;
+.grid_forhandlere {
+  margin-bottom: 10%;
 }
 
-.flex_forhandlere .boks {
+.grid_forhandlere .boks {
   background-color: #fce0f9;
   padding: 20px 20px 120px 20px;
+  margin-bottom: 10px;
 }
 
-.flex_forhandlere p {
+.grid_forhandlere p {
   padding-block: 8px;
   padding-inline-start: 10px;
 }
@@ -236,7 +253,7 @@ main > *,
   padding-bottom: 5%;
 }
 
-.flex_forhandlere h3 {
+.grid_forhandlere h3 {
   font-size: 30px;
   padding-block: 30px;
   padding-inline-start: 10px;
