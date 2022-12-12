@@ -15,7 +15,13 @@ main > *,
 }
 
 /*kontakt section*/
-@media (min-width: 800px) {
+@media (max-width: 600px) {
+  .grid_kontakt .boks a,
+  .grid_kontakt .boks p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 700px) {
   .grid_kontakt {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -31,7 +37,7 @@ main > *,
   place-content: start;
   display: block;
   padding: 10px 0px 10px 10px;
-  font-size: 20px;
+  font-size: var(--font-xs);
   color: black;
   text-decoration: none;
   font-family: "Poppins_Regular", sans-serif;
@@ -40,7 +46,7 @@ main > *,
 .grid_kontakt p {
   color: black;
   padding: 10px 10px 0px 10px;
-  font-size: 20px;
+  font-size: var(--font-xs);
 }
 
 .grid_kontakt h3 {
@@ -53,7 +59,8 @@ main > *,
   display: flex;
   place-content: center;
   color: black;
-  padding-block: 5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .ios,
@@ -76,8 +83,10 @@ main > *,
   }
 }
 
-.grid_job .boks {
-  padding-left: 50px;
+@media (max-width: 600px) {
+  strong {
+    font-size: 15px;
+  }
 }
 
 .boks_order {
@@ -106,7 +115,7 @@ main > *,
   color: black;
 }
 
-.strong {
+.stillinger {
   font-family: "Poppins_Medium", sans-serif;
   font-weight: 800;
   text-align: center;
@@ -209,6 +218,7 @@ main > *,
 
 .boks_helligdag {
   background-color: #fce0f9;
+  transition: 0.3s;
 }
 
 .grid_butikker a {
@@ -221,6 +231,10 @@ main > *,
   font-family: "Poppins_Regular", sans-serif;
 }
 
+.boks_helligdag:hover {
+  transform: scale(1.1);
+}
+
 /*Forhandlere section*/
 
 @media (min-width: 1100px) {
@@ -230,11 +244,17 @@ main > *,
     gap: 10px;
   }
 }
-@media (min-width: 600px) and (max-width: 1100px) {
+@media (max-width: 1100px) {
   .grid_forhandlere {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section4 h3 {
+    font-size: 20px;
   }
 }
 
@@ -261,7 +281,6 @@ main > *,
 }
 
 .grid_forhandlere h3 {
-  font-size: 30px;
   padding-block: 30px;
   padding-inline-start: 10px;
 }
