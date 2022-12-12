@@ -15,21 +15,21 @@ main > *,
 }
 
 /*kontakt section*/
-
-.grid_kontakt {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+@media (min-width: 800px) {
+  .grid_kontakt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 8%;
+  }
 }
-
 .grid_kontakt .boks {
   border-left: solid #c1181c;
-  margin-bottom: 100px;
+  margin-block: 10%;
 }
 
 .grid_kontakt a {
   place-content: start;
   display: block;
-  padding-block: 10px;
   padding: 10px 0px 10px 10px;
   font-size: 20px;
   color: black;
@@ -40,7 +40,6 @@ main > *,
 .grid_kontakt p {
   color: black;
   padding: 10px 10px 0px 10px;
-
   font-size: 20px;
 }
 
@@ -57,17 +56,32 @@ main > *,
   padding-block: 5%;
 }
 
+.ios,
+.android {
+  font-weight: bold;
+}
+
 /*Bagt family section*/
 
-.grid_job {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  padding-block: 60px;
+@media (min-width: 800px) {
+  .grid_job {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding-block: 60px;
+  }
+
+  .boks_order {
+    order: 1;
+  }
 }
 
 .grid_job .boks {
   padding-left: 50px;
+}
+
+.boks_order {
+  padding-bottom: 10%;
 }
 
 .section2 {
@@ -113,18 +127,88 @@ main > *,
   padding-bottom: 5%;
 }
 
+/*maries*/
+
 .grid_butikker {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  gap: var(--space-lg);
+  padding-bottom: var(--space-lg);
+}
+.grid_butikker img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid_butikker .boks,
+.boks_helligdag {
+  display: grid;
   place-items: center;
+}
+.grid_butikker .boks img,
+.grid_butikker .boks .ps,
+.boks_helligdag .ps,
+.grid_butikker .boks h3,
+.boks_helligdag h3 {
+  grid-area: 1/1;
+  transition: 0.3s;
+}
+
+.grid_butikker .boks h3,
+.boks_helligdag h3 {
+  font-size: var(--font-lg);
+  color: var(--brand_color);
+  font-family: "Poppins_Medium", sans-serif;
+  text-transform: uppercase;
+  place-items: center;
+  text-align: center;
+}
+
+.grid_butikker .boks p,
+.boks_helligdag p {
+  font-size: var(--font-sm);
+  color: var(--brand_color);
+  font-family: "Poppins_Medium", sans-serif;
+  place-self: center;
+  text-align: center;
+}
+.grid_butikker .boks .ps,
+.boks_helligdag .ps {
+  opacity: 0;
+  z-index: 3;
+}
+.grid_butikker .boks img {
+  opacity: 85%;
+}
+.grid_butikker .boks h3,
+.boks_helligdag h3 {
+  z-index: 3;
+}
+.grid_butikker .boks:hover h3,
+.boks_helligdag:hover h3 {
+  opacity: 0;
+}
+.grid_butikker .boks:hover .ps,
+.boks_helligdag:hover .ps {
+  opacity: 1;
+  display: block;
+}
+
+.grid_butikker .boks:hover img {
+  transform: scale(1.1);
+  opacity: 30%;
+}
+
+.boks_helligdag {
+  background-color: #fce0f9;
 }
 
 .grid_butikker a {
   place-content: start;
   display: inline;
-  color: #c1181c;
-  font-size: 22px;
+  font-size: var(--font-sm);
+  color: var(--brand_color);
   text-decoration: none;
   font-weight: bold;
   font-family: "Poppins_Regular", sans-serif;
@@ -132,24 +216,32 @@ main > *,
 
 /*Forhandlere section*/
 
-.flex_forhandlere {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 10px 0px 60px 0px;
+@media (min-width: 1100px) {
+  .grid_forhandlere {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+  .grid_forhandlere {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
 }
 
-.flex_forhandlere .boks {
-  width: 280px;
-  aspect-ratio: 1/1;
+.grid_forhandlere {
+  margin-bottom: 10%;
 }
 
-.flex_forhandlere .boks {
+.grid_forhandlere .boks {
   background-color: #fce0f9;
   padding: 20px 20px 120px 20px;
+  margin-bottom: 10px;
 }
 
-.flex_forhandlere p {
+.grid_forhandlere p {
   padding-block: 8px;
   padding-inline-start: 10px;
 }
@@ -161,7 +253,7 @@ main > *,
   padding-bottom: 5%;
 }
 
-.flex_forhandlere h3 {
+.grid_forhandlere h3 {
   font-size: 30px;
   padding-block: 30px;
   padding-inline-start: 10px;
