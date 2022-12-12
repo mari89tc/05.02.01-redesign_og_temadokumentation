@@ -71,7 +71,8 @@ section h2 {
 .container h2 {
   font-size: var(--font-lg);
   color: var(--brand_color);
-  font-family: "Poppins_Medium", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   place-items: center;
   text-align: center;
 }
@@ -79,7 +80,8 @@ section h2 {
 .container p {
   font-size: var(--font-sm);
   color: var(--brand_color);
-  font-family: "Poppins_Medium", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   place-self: center;
   text-align: center;
 }

@@ -170,7 +170,6 @@ header a:visited {
 .main-menu ul {
   list-style: none;
   padding: 0;
-  /* 2. Få elementerne til at stå ved siden af hinanden */
   display: flex;
   gap: 1rem;
 }
@@ -203,4 +202,15 @@ header a:visited {
     flex-flow: wrap;
     flex-basis: 100%;
   }
+}
+
+/* Burgermenu */
+.burger {
+  width: 100px;
+  aspect-ratio: 75/75;
+  background-image: url(menu.svg);
+}
+
+.kryds {
+  background-image: url(kryds.svg);
 }
