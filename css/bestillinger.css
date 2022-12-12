@@ -68,6 +68,11 @@ h1, h2, h3 {
   line-height: 30px;
 }
 
+.pris_2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .butikker {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
