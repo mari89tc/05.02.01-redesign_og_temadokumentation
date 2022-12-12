@@ -129,6 +129,12 @@ main > *,
 
 /*maries*/
 
+@media (max-width: 680px) {
+  .boks_helligdag {
+    padding-block: 30%;
+  }
+}
+
 .grid_butikker {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
