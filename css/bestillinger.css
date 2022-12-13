@@ -18,7 +18,7 @@ main > *,
   margin-top: 75px;
 }
 
-.top  {
+.top {
   text-align: center;
   margin-bottom: 10px;
   line-height: 30px;
@@ -28,9 +28,18 @@ main > *,
   background-color: #fce0f9;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin-top: 15px;
   margin-bottom: 10px;
+}
+
+a {
+  display: inline;
+  color: #c1181c;
+  font-size: var(--font-sm);
+  text-decoration: none;
 }
 
 @media (min-width: 600px) {
@@ -114,21 +123,20 @@ form {
 }
 
 .form-felt-1 {
-    place-self: start;
-    text-align: start
-    
+  place-self: start;
+  text-align: start;
 }
 
 .form-felt-2 {
-    place-self: start;
-    text-align: start;
+  place-self: start;
+  text-align: start;
 }
 
 input {
   border: solid #fce0f9;
   padding: 12px 0;
   background-color: #fffacd;
-  border: 5px solid #fce0f9; 
+  border: 5px solid #fce0f9;
 }
 
 select {
@@ -159,25 +167,25 @@ label {
   font-family: "Poppins_Regular", sans-serif;
 }
 
-input:focus{
+input:focus {
   outline: 3px solid #c1181c;
 }
 
 #besked:focus {
- outline: 3px solid #c1181c;
+  outline: 3px solid #c1181c;
 }
 
 @media (min-width: 600px) {
-    .grid_1-2 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 100px;
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
   }
-} 
+}
 
 @media (max-width: 600px) {
   .col {
-      margin-inline: auto;
+    margin-inline: auto;
   }
 
   .minikager_1-1 {
@@ -204,6 +212,3 @@ input:focus{
     padding-left: 30px;
   }
 }
-
-
-
