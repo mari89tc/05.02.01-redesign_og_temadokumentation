@@ -96,7 +96,7 @@ main > *,
 }
 
 @media (max-width: 600px) {
-  strong {
+  .grid_job strong {
     font-size: 15px;
   }
 }
