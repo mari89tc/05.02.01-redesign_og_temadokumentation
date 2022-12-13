@@ -6,6 +6,8 @@ main,
 
 .full {
   grid-column: 1/-1;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 main > *,
@@ -16,16 +18,28 @@ main > *,
 
 .top_pic {
   margin-top: 75px;
+  padding-bottom: 20px;
 }
 
 .top {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   line-height: 30px;
+  
+}
+
+.top_1 {
+  padding:30px;
+}
+
+.top_2 {
+  padding: 30px;
 }
 
 .full {
-  background-color: var(--tertiary)
+  background-color: var(--tertiary);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 h1,
@@ -53,7 +67,7 @@ h3 {
   text-align: start;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .mini_kager_1-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -86,7 +100,13 @@ h3 {
 
 .pris_2 {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.pris_2_ {
+  text-align: center;
+  margin-top: 20px;
+
 }
 
 .butikker {
@@ -112,13 +132,13 @@ h3 {
 }
 
 .kundebestilling {
-  line-height: 40px;
+  line-height: 30px;
   margin-bottom: 15px;
   margin-top: 15px;
 }
 
 .engros {
-  line-height: 33px;
+  line-height: 30px;
   padding-bottom: 50px;
 }
 
@@ -186,11 +206,12 @@ input:focus {
   font-family: "Poppins_Regular", sans-serif;
   font-weight: 600;
 }
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .grid_1-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 100px;
+    margin-top: 30px;
   }
 }
 
@@ -250,4 +271,17 @@ input:focus {
   form {
     padding-left: 30px;
   }
+
+  .pris_2_ {
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .engros a, a, .kundebestilling a {
+    display: inline;
+     color: var(--brand_color);
+     font-size: var(--font-xxs);
+     text-decoration: none;
+   }
 }
