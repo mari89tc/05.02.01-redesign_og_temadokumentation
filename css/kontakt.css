@@ -38,19 +38,17 @@ main > *,
   display: block;
   padding: 10px 0px 10px 10px;
   font-size: var(--font-xs);
-  color: black;
+  color: #c1181c;
   text-decoration: none;
   font-family: "Poppins_Regular", sans-serif;
 }
 
 .grid_kontakt p {
-  color: black;
   padding: 10px 10px 0px 10px;
   font-size: var(--font-xs);
 }
 
 .grid_kontakt h3 {
-  color: black;
   font-size: 30px;
   padding: 0px 0px 5px 10px;
 }
@@ -58,7 +56,6 @@ main > *,
 .section1 h2 {
   display: flex;
   place-content: center;
-  color: black;
   padding-top: 5%;
   padding-bottom: 2%;
 }
@@ -75,7 +72,7 @@ main > *,
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
-    padding-block: 60px;
+    padding-block: 40px;
   }
 
   .boks_order {
@@ -95,14 +92,14 @@ main > *,
 
 .section2 {
   background-color: #fce0f9;
-  padding: 30px;
 }
 
 .section2 img {
   object-fit: cover;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  padding-inline: 20px;
+  margin-inline: auto;
+  width: 70%;
 }
 
 .grid_job p {
@@ -111,7 +108,6 @@ main > *,
 }
 
 .grid_job h2 {
-  padding-top: 70px;
   color: black;
 }
 
@@ -133,7 +129,7 @@ main > *,
 .section3 h2 {
   display: flex;
   place-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
 
@@ -279,7 +275,7 @@ main > *,
 .section4 h2 {
   display: flex;
   place-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
 
