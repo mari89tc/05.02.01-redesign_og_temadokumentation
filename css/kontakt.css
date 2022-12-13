@@ -28,6 +28,10 @@ main > *,
     margin-bottom: 8%;
   }
 }
+.grid_kontakt {
+  margin-inline-start: 2%;
+}
+
 .grid_kontakt .boks {
   border-left: solid #c1181c;
   margin-block: 10%;
