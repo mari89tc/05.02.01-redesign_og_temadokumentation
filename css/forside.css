@@ -27,6 +27,11 @@ section h2 {
   background-color: var(--tertiary);
   padding: var(--space-xs);
 }
+.om_os p {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
 .usp {
   border: 2px solid var(--brand_color);
   padding: var(--space-md);
