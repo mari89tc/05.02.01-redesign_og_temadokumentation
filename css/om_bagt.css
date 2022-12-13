@@ -12,6 +12,10 @@ main,
   grid-template-columns: 1fr minmax(0, 1100px) 1fr;
 }
 
+.pink {
+  background-color: #F6E1F7;
+}
+
 .full {
   grid-column: 1/-1;
 }
@@ -131,23 +135,4 @@ color:#F6E1F7;
 .grid_forhandlere h3 {
   padding-block: 30px;
   padding-inline-start: 10px;
-}
-
-@media (min-width: 600px) {
-  .grid_1-2 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-  .grid_1-2 img {
-    height: 350px;
-    width: 300px;
-  }
-  .grid_2-1 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-  .grid_2-1 img {
-    height: 350px;
-    width: 300px;
-  }
 }
