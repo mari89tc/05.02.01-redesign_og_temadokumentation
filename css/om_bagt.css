@@ -12,6 +12,10 @@ main,
   grid-template-columns: 1fr minmax(0, 1100px) 1fr;
 }
 
+.pink {
+  background-color: #F6E1F7;
+}
+
 .full {
   grid-column: 1/-1;
 }
