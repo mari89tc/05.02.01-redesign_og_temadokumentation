@@ -17,6 +17,8 @@ html {
   --font-sm: 25px;
   --font-md: 35px;
   --font-lg: 40px;
+  --font-regular: 400;
+  --font-medium: 500;
 }
 * {
   padding: 0;
@@ -39,9 +41,6 @@ video {
   width: 100%;
   height: auto;
   display: block;
-}
-video {
-  margin: 20px;
 }
 
 body {
@@ -186,22 +185,21 @@ header a:active {
   font-size: 22px;
   color: var(--brand_color);
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @media (max-width: 700px) {
   .toggle-btn {
-    display: block;
+    display: inline-block;
   }
   .main-menu.shown {
     display: contents;
   }
-  .main-menu ul {
+  /* .main-menu ul {
     display: none;
-  }
-  .main-menu.shown ul {
-    padding-top: 1rem;
-    display: flex;
+  } */
+  .main-menu ul {
+    display: block;
     flex-flow: wrap;
     flex-basis: 100%;
   }
@@ -209,11 +207,21 @@ header a:active {
 
 /* Burgermenu */
 .burger {
-  width: 100px;
-  aspect-ratio: 75/75;
-  background-image: url(menu.svg);
+  width: 20px;
+  aspect-ratio: 1/1;
+  background-image: url(../kryds.svg);
 }
-
-.kryds {
-  background-image: url(kryds.svg);
+.kryds .burger {
+  background-image: url(../menu.svg);
+}
+.main-menu.kryds ul {
+  display: none;
+}
+.main-menu {
+  text-align: end;
+  padding: 20px;
+}
+.main-menu button {
+  margin: 20px;
+  padding-right: 10px;
 }
