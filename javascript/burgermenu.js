@@ -5,9 +5,9 @@ const menu = document.querySelector(".main-menu");
 
 // Lav funktionen "toggleMenu()" med følgende funktionalitet
 function toggleMenu() {
-  menu.classList.toggle("shown");
-  const menuShown = menu.classList.contains("shown");
-
+  menu.classList.toggle("kryds");
+  // const menuShown = menu.classList.contains("shown");
+  /*
   // spørg om "menuShown" i if-sætningen nedenfor (=> if (menuShown)), og udskift teksten
   if (menuShown) {
     console.log(menuShown); // se i konsollen
@@ -18,6 +18,7 @@ function toggleMenu() {
     // sæt btn.textContent til "Menu", hvis menuShown er "false"
     btn.classList.add("burger");
   }
+  */
 }
 
 btn.addEventListener("click", toggleMenu);
