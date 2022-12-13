@@ -29,7 +29,6 @@ section h2 {
 }
 .om_os {
   background-color: var(--tertiary);
-  padding: var(--space-xs);
 }
 .om_os p {
   padding-left: 15px;
@@ -38,7 +37,7 @@ section h2 {
 }
 .usp {
   border: 2px solid var(--brand_color);
-  padding: var(--space-md);
+  padding: var(--space-sm);
   text-align: center;
   border-inline: 0;
 }
@@ -48,8 +47,15 @@ section h2 {
     grid-template-columns: 1fr 2fr;
   }
   .grid_1-2 img {
-    height: 350px;
-    width: 300px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+}
+@media (max-width: 600px) {
+  .grid_1-2 img {
+    object-fit: cover;
+    width: 50%;
+    margin-inline: auto;
   }
 }
 /* Åbningstider */
