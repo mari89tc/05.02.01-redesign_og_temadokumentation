@@ -20,18 +20,20 @@ video {
 }
 
 section {
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
+  margin-top: var(--space-md);
 }
 section h2 {
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-sm);
   margin-top: var(--space-md);
+  padding-bottom: var(--space-sm);
   text-align: center;
 }
 .om_os {
   background-color: var(--tertiary);
 }
 .om_os p {
-  padding-left: 15px;
+  padding-left: 20px;
   padding-bottom: 10px;
   padding-right: 10px;
 }
@@ -49,6 +51,18 @@ section h2 {
   .grid_1-2 img {
     object-fit: cover;
     aspect-ratio: 1/1;
+    width: 110%;
+  }
+  section h2 {
+    margin-bottom: var(--space-md);
+    margin-top: var(--space-md);
+    padding-bottom: var(--space-md);
+    text-align: center;
+  }
+  .om_os p {
+    padding-left: 70px;
+    padding-bottom: 10px;
+    padding-right: 10px;
   }
 }
 @media (max-width: 600px) {
