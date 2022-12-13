@@ -15,8 +15,12 @@ main > *,
   grid-column: 2/3;
 }
 
+video {
+  margin: 30px;
+}
+
 section {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 section h2 {
   margin-bottom: var(--space-md);
@@ -44,7 +48,7 @@ section h2 {
     grid-template-columns: 1fr 2fr;
   }
   .grid_1-2 img {
-    height: 340px;
+    height: 350px;
     width: 300px;
   }
 }
