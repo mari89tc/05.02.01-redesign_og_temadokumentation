@@ -1,13 +1,13 @@
 /* Footer */
 section footer {
-  display: flex;
-  place-self: start;
-  padding-left: 30px;
+  text-align: start;
+  place-self: center;
+  padding-left: 150px;
 }
+
 footer {
   background-color: #fce0f9;
-  padding-block: 50px;
-  margin-inline: 0;
+  padding-block: 60px;
   padding-inline: 1%;
 }
 
@@ -17,7 +17,6 @@ footer p {
   font-size: 15px;
   padding-bottom: 6px;
   text-decoration: none;
-  margin: 0;
 }
 
 footer a {
@@ -27,7 +26,6 @@ footer a {
   text-decoration: none;
   padding-bottom: 2px;
   display: block;
-  margin: 0;
 }
 h5 {
   font-size: 18px;
