@@ -6,8 +6,8 @@
 }*/
 
 .overskrift {
-    text-align: center;
-  }
+  text-align: center;
+}
 
   .paragraf{
     margin-top: 30px;
@@ -22,4 +22,24 @@
 .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+.paragraf {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+main,
+.full {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1100px) 1fr;
+}
+
+.full {
+  grid-column: 1/-1;
+}
+
+main > *,
+.full > * {
+  /* main > *, .full > * */
+  grid-column: 2/3;
 }
