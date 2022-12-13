@@ -192,6 +192,7 @@ header a:active {
   .toggle-btn {
     display: inline-block;
   }
+  /*
   .main-menu.shown {
     display: contents;
   }
