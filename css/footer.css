@@ -1,4 +1,9 @@
 /* Footer */
+section footer {
+  display: flex;
+  place-self: start;
+  padding-left: 30px;
+}
 footer {
   background-color: #fce0f9;
   padding-block: 50px;
