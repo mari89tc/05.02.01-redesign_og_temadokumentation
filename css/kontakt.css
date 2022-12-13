@@ -143,6 +143,9 @@ main > *,
   .boks_helligdag {
     padding-block: 30%;
   }
+  .boks_helligdag {
+    padding-block: 20%;
+  }
 }
 
 .grid_butikker {
