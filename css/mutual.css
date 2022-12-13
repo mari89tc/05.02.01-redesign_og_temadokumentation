@@ -135,7 +135,7 @@ p {
 
 @media (max-width: 600px) {
   .logo {
-    width: 35%;
+    width: 40%;
     margin-inline-start: 15px;
     margin-bottom: 5px;
     margin-top: 15px;
@@ -162,16 +162,6 @@ header a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-
-header a:active {
-  color: var(--brand_color);
-  font-size: 20px;
-  padding-left: 80px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-}
-
 
 /* burgermenu */
 .main-menu ul {
@@ -228,6 +218,6 @@ header a:active {
   padding: 20px;
 }
 .main-menu button {
-  margin: 20px;
+  margin-inline: 20px;
   padding-right: 10px;
 }
