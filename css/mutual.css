@@ -124,11 +124,22 @@ p {
 }
 
 /* Logo */
-.logo {
-  width: 30%;
-  margin-inline-start: 30px;
-  margin-bottom: 10px;
-  margin-top: 20px;
+@media (min-width: 600px) {
+  .logo {
+    width: 30%;
+    margin-inline-start: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 35%;
+    margin-inline-start: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
 }
 
 ul {
@@ -151,6 +162,7 @@ header a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+
 header a:active {
   color: var(--brand_color);
   font-size: 20px;
@@ -159,6 +171,7 @@ header a:active {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
+
 
 /* burgermenu */
 .main-menu ul {
