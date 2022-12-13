@@ -20,6 +20,17 @@ main > *,
   .grid_kontakt .boks p {
     font-size: 15px;
   }
+
+  .section4,
+  .section2,
+  .grid_job p,
+  .grid_job h2 {
+    padding-inline: 10px;
+  }
+
+  .grid_job {
+    padding-block: 30px;
+  }
 }
 @media (min-width: 700px) {
   .grid_kontakt {
