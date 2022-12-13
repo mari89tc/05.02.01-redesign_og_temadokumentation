@@ -8,3 +8,8 @@
 .overskrift {
     text-align: center;
   }
+
+  .paragraf{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
