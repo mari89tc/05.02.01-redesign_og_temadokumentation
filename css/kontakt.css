@@ -38,19 +38,17 @@ main > *,
   display: block;
   padding: 10px 0px 10px 10px;
   font-size: var(--font-xs);
-  color: black;
+  color: #c1181c;
   text-decoration: none;
   font-family: "Poppins_Regular", sans-serif;
 }
 
 .grid_kontakt p {
-  color: black;
   padding: 10px 10px 0px 10px;
   font-size: var(--font-xs);
 }
 
 .grid_kontakt h3 {
-  color: black;
   font-size: 30px;
   padding: 0px 0px 5px 10px;
 }
@@ -58,7 +56,6 @@ main > *,
 .section1 h2 {
   display: flex;
   place-content: center;
-  color: black;
   padding-top: 5%;
   padding-bottom: 2%;
 }
