@@ -127,8 +127,8 @@ p {
 @media (min-width: 600px) {
   .logo {
     width: 30%;
-    margin-inline-start: 30px;
-    margin-bottom: 10px;
+    margin-inline-start: 45px;
+    margin-bottom: 8px;
     margin-top: 20px;
   }
 }
@@ -141,6 +141,8 @@ p {
     margin-top: 15px;
   }
 }
+
+/*header*/
 
 ul {
   display: flex;
@@ -187,13 +189,7 @@ header a {
   .toggle-btn {
     display: inline-block;
   }
-  /*
-  .main-menu.shown {
-    display: contents;
-  }
-  /* .main-menu ul {
-    display: none;
-  } */
+
   .main-menu ul {
     display: block;
     flex-flow: wrap;
