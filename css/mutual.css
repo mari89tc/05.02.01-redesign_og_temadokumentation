@@ -135,14 +135,24 @@ p {
 
 @media (max-width: 600px) {
   .logo {
-    width: 40%;
+    width: 100%;
     margin-inline-start: 15px;
     margin-bottom: 5px;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 }
 
 /*header*/
+
+@media (max-width: 600px) {
+  .grid_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .burger {
+    margin-top: 20px;
+  }
+}
 
 ul {
   display: flex;
@@ -164,7 +174,6 @@ header a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-
 /* burgermenu */
 .main-menu ul {
   list-style: none;
