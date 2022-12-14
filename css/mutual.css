@@ -127,18 +127,30 @@ p {
 @media (min-width: 600px) {
   .logo {
     width: 30%;
-    margin-inline-start: 30px;
-    margin-bottom: 10px;
+    margin-inline-start: 45px;
+    margin-bottom: 8px;
     margin-top: 20px;
   }
 }
 
 @media (max-width: 600px) {
   .logo {
-    width: 35%;
+    width: 100%;
     margin-inline-start: 15px;
     margin-bottom: 5px;
-    margin-top: 15px;
+    margin-top: 10px;
+  }
+}
+
+/*header*/
+
+@media (max-width: 600px) {
+  .grid_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .burger {
+    margin-top: 23px;
   }
 }
 
@@ -162,17 +174,6 @@ header a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-
-header a:active {
-  color: var(--brand_color);
-  font-size: 20px;
-  padding-left: 80px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-}
-
-
 /* burgermenu */
 .main-menu ul {
   list-style: none;
@@ -197,13 +198,7 @@ header a:active {
   .toggle-btn {
     display: inline-block;
   }
-  /*
-  .main-menu.shown {
-    display: contents;
-  }
-  /* .main-menu ul {
-    display: none;
-  } */
+
   .main-menu ul {
     display: block;
     flex-flow: wrap;
@@ -228,6 +223,6 @@ header a:active {
   padding: 20px;
 }
 .main-menu button {
-  margin: 20px;
+  margin-inline: 20px;
   padding-right: 10px;
 }
